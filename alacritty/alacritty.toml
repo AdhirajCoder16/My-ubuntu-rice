@@ -1,0 +1,51 @@
+# ── Window Settings ─────────────────────────────────────────
+[window]
+padding.x = 12          # horizontal padding (pixels)
+padding.y = 12          # vertical padding (pixels)
+decorations = 'none'    # removes the title bar for a clean look
+opacity = 0.92          # 0.0 = fully transparent, 1.0 = solid
+
+# ── Scrolling ───────────────────────────────────────────────
+[scrolling]
+history = 10000         # how many lines you can scroll back
+
+# ── Font ────────────────────────────────────────────────────
+[font]
+size = 12.0             # font size in points
+
+[font.normal]
+family = 'JetBrainsMono Nerd Font'
+style = 'Regular'
+
+[font.bold]
+family = 'JetBrainsMono Nerd Font'
+style = 'Bold'
+
+# ── Catppuccin Mocha Colors ──────────────────────────────────
+[colors.primary]
+background = '#1e1e2e'  # dark background
+foreground = '#cdd6f4'  # light text
+
+[colors.cursor]
+text   = '#1e1e2e'
+cursor = '#f5e0dc'      # rosewater cursor
+
+[colors.normal]
+black   = '#45475a'
+red     = '#f38ba8'
+green   = '#a6e3a1'
+yellow  = '#f9e2af'
+blue    = '#89b4fa'
+magenta = '#f5c2e7'
+cyan    = '#94e2d5'
+white   = '#bac2de'
+
+[colors.bright]
+black   = '#585b70'
+red     = '#f38ba8'
+green   = '#a6e3a1'
+yellow  = '#f9e2af'
+blue    = '#89b4fa'
+magenta = '#f5c2e7'
+cyan    = '#94e2d5'
+white   = '#a6adc8'
